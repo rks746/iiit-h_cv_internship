@@ -1,2 +1,2 @@
-# iiit-h_cv_internship
-All my work related to IIIT-H i-Hub research internship 2025
+# IIIT-H CV Internship 2025
+This repository has all my work and tasks related to computer vision.
