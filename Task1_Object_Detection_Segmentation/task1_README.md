@@ -1,8 +1,8 @@
 ## DETECTION = classification + localization
 CNN slides convolutional filters over the image, there are 3 layers - early, middle, deep.  
--Early layers learn edges and corners.  
--Middle layers learn shapes and parts.  
--Deep layers learn object kevel semantics.  
+- Early layers learn edges and corners.  
+- Middle layers learn shapes and parts.  
+- Deep layers learn object kevel semantics.  
 This generates a **feature map** which contains all the information about the image.  
 Model predicts a bounding box. Generally, there are overlapping boxes so **Non-Max Suppression (NMS)** is applied to keep the best box and suppress duplicates.  
 For each predicted box, the model predicts a **class probability vector** and confidence score. 
