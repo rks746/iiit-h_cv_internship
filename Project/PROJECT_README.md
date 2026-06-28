@@ -1,5 +1,7 @@
 ## Helmet Detection using YOLO
 
+![Website Screenshot](ss.png)
+
 ## 1. Introduction
 
 This project is part of the IIIT Hyderabad Computer Vision Internship Program (2025–26).  
@@ -101,7 +103,7 @@ The model was initialized using pretrained weights trained on the COCO (Common O
 
 ### 5.2 Transfer Learning
 
-Transfer learning was performed by fine-tuning the pretrained YOLOv8 model on the custom helmet detection dataset.
+Transfer learning was performed by fine-tuning the pretrained YOLOv8 model on the custom helmet detection dataset. (The fine-tuned model weights are saved in website/best.pt which are used during inference)
 
 Training was executed using the Ultralytics YOLO framework:
 
@@ -138,6 +140,8 @@ This project demonstrates the complete pipeline of:
 - transfer learning using a pretrained YOLO model
     
 - evaluation
+
+- user demonstration using Streamlit 
     
 
 The results indicate that YOLO-based transfer learning is effective for helmet detection tasks, provided that high-quality annotated data is available.
